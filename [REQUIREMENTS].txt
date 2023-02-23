@@ -1,0 +1,2 @@
+node:javascript [Just Node]
+node:electron [npm install -g electron]

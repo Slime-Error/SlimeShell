@@ -1,0 +1,16 @@
+{
+  "name": "SlimeShell",
+  "version": "ALPHA-0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "start:dev": "electron . --inspect=5858",
+    "start:reload": "electron-reload ."
+  },
+  "author": "Slimeball Stella#2084",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
