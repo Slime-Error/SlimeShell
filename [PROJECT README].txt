@@ -11,21 +11,20 @@
   is enabled.
 
 [INSTALLATION]
-- Read Requirements text file
+- Read Installation text file
 
 [BUGS]
 - Put them in the SlimeShell Issues page on Github
 - DO NOT PING ME BUGS ON DISCORD
 
 [CUSTOMIZATION]
-- Scripts can be added console div in the index.html
-  Following the example script inserted in the index.html console
-  you can add your own scripts to output anything into the console
-  which you create your script in the scripts folder to do.
-- Using the Navbar Buttons you can activate a console script
-  or open/add another HTML page if you like
-- SlimeShell will always only use HTML, CSS, JAVASCRIPT.
-  Else user can use other File Type Languages If Desired
+- Scripts can be made as like the example script and or using other
+  modules or user created scripts.
+- Scripts are ran by a onClick Button Event as shown in the index.html
+- When a onClick Event is fired it runs that function located in the
+  root projects render.js file.
+- The render.js handles loading and requiring user made scripts to
+  use their functions inside the html onClick function
 
 [FAQ]
 - When will I add this to Wallpaper Engine?

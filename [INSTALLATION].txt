@@ -1,0 +1,9 @@
+1. You must have node.js to use Node Based JavaScript
+   on your System.
+2. run the command in this folder "npm install" and all the
+   dependencies will be installed
+3. Make a shortcut of the file "[BOOT SLIMESHELL]" in the
+   startup folder and move it to whereever you want.
+4. Run your new shortcut "[BOOT SLIMESHELL]" and it will start
+   electron running SlimeShell!
+5. Enjoy Customizing your new Shell Like Desktop Interface!
