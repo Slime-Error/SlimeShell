@@ -1,11 +1,12 @@
 // Main Electron Appilcation
-const { app, BrowserWindow, ipcMain } = require("electron");
+const { app, BrowserWindow } = require("electron");
+const { ipcMain } = require("electron");
 // Get User Configuration Files
 const config = require("./config/shellconfig.js");
 // User & Application Config Variables
-var appFullscreen = config.fullscreen
-var appFrameDock = config.appFrameDock
-var webDevTools = config.webDevTools
+var appFullscreen = config.fullscreen;
+var appFrameDock = config.appFrameDock;
+var webDevTools = config.webDevTools;
 
 // Electron Window Creation
 let win = null;
@@ -22,11 +23,14 @@ const createWindow = () => {
       enableRemoteModule: true,
       nativeWindowOpen: true,
       webSecurity: true
-    },
+    }
   });
   if (webDevTools == true) {
     win.webContents.openDevTools();
-  }
+  };
   win.loadFile("index.html");
 };
-app.whenReady().then(createWindow);
+app.on('ready', () => {
+  createWindow();
+  app.on('window-all-closed', () => app.quit());
+});

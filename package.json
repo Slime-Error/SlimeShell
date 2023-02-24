@@ -1,11 +1,12 @@
 {
   "name": "SlimeShell",
-  "version": "ALPHA-0.2",
+  "version": "ALPHA-0.3",
   "description": "A Interactable New Desktop Interface. Shell-Like Interface Application using electron and node.js",
   "main": "main.js",
   "author": "Slimeball Stella#2084",
   "license": "MIT",
   "dependencies": {
-    "electron": "^23.1.1"
+    "electron": "^23.1.1",
+    "fs": "^0.0.1-security"
   }
 }

@@ -1,10 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('https://i.ibb.co/V9qpGMC/990949.jpg');
+  
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+
+.background {
+  background-image: url("null.jpg");
 }
 
 .navbar1 {
@@ -49,8 +53,26 @@ body {
   height: 400px;
   margin: 50px auto;
   border-radius: 20px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   font-family: 'VT323', monospace;
+  overflow-y: scroll; /* Set the vertical overflow behavior to "scroll" */
+  padding: 10px;
+  outline-style: groove;
+  outline-width: 10px;
+}
+
+.console::-webkit-scrollbar {
+  background-color: rgba(0, 0 ,0, 0);
+  width: 10px;
+}
+
+.console::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 0 ,50, 0.1);
+  border-radius: 10px;
+}
+
+.console::-webkit-scrollbar-track {
+  background-color: rgba(0, 0 ,0, 0);
 }
 
 .console pre {
@@ -58,6 +80,7 @@ body {
   font-size: 20px;
   white-space: pre-wrap;
   word-wrap: break-word;
-  margin: 0;
-  padding: 10px;
+  margin: auto;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }

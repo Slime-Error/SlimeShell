@@ -6,23 +6,26 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script defer src="render.js"></script>
   </head>
-  <body>
+  <body id="background">
     <div class="navbar1">
       <a><button onClick="clearShell()">[CLEAR SHELL]</button></a> | 
-      <a><button onClick="welcome()">[WELCOME]</button></a> | 
-      <a><button onClick="example()">[EXAMPLE]</button></a> | 
+      <a><button onClick="shellLogs()">[SHELL LOGS]</button></a> | 
+      <a><button onClick="commandPrompt()">[LAUNCH CMD]</button></a> | 
       <a><button>[DOWNLOADS]</button></a> | 
       <a><button>[FILE SYSTEM]</button></a> |
     </div>
     <div class="navbar2">
+      <a><button onClick="welcome()">[WELCOME]</button></a> | 
       <a><button>[Quick Notes]</button></a> | 
-      <a><button><webview src="https://chat.openai.com/chat">[Open AI Chat]</webview></button></a> | 
-      <a><button><webview src="https://google.com">[Web Browsing]</webview></button></a> |
+      <a><button>[Open AI Chat]</button></a> | 
+      <a><button>[Web Browsing]</button></a> |
     </div>
-    <div class="console">
+    <div class ="console" id="console">
       <pre id="output"></pre>
     </div>
   </body>
 </html>
 
 <!-- DEV NOTE: Add Tabs to Quick Notes and Browser and Console -->
+<!-- DEV NOTE: src="https://chat.openai.com/chat" -->
+<!-- DEV NOTE: src="https://google.com" -->
