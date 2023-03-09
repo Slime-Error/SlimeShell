@@ -1,7 +1,7 @@
 module.exports = {
 	"fullscreen": true, // Fullscreen or Windowed Mode (Default = Windowed) | Tip: While in Windowed Mode you can press F11 to Fullscreen
 	"webDevTools": false, // Typical Web Development Console for debugging running code and editing files while running
-	"appFrameDock": true, // Shows the electron window frame controls (Default = OFF) // When Setting to "false" its Highly Reccomended to set "Fullscreen" to "True" When Hiding Window Controls
+	"appFrameDock": false, // Shows the electron window frame controls (Default = OFF) // When Setting to "false" its Highly Reccomended to set "Fullscreen" to "True" When Hiding Window Controls
 
 	////////////////////
 	// Visual Configs //

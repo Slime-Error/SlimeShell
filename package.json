@@ -1,6 +1,6 @@
 {
   "name": "SlimeShell",
-  "version": "ALPHA-0.3",
+  "version": "ALPHA-0.4",
   "description": "A Interactable New Desktop Interface. Shell-Like Interface Application using electron and node.js",
   "main": "main.js",
   "author": "Slimeball Stella#2084",

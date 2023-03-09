@@ -1,0 +1,43 @@
+Local Secure Chat API (Low) -->
+Using the Shell Console create a chat application
+that securely connects to a Web API Hosted Chat Server
+++ Must include In-App Account creation
+++ Must Include pasteable images
+++ Must Include saved server chats
+++ Must include emoji.gg emoji grab URL list for client side emoji
++ Must grab any new url for emojis that have been created and
++ add them to the application emoji list on client start
++ does not download only allows for web preview then can be
++ downloaded to client if desired, only url grabs for image extention
+++ Nice interface. OwO
+---------------------
+Background Engine (Low) -->
+Allow for Application to run as a background wallpaper so
+it cannot be minimized even by accident as this will be
+a User Interface Background Wallpaper(Emulated) Engine
+++ Possabily Able to use a window sorting layer closest to back
++ always stays active ontop?
+---------------------
+Ability to run User Owned Applications inside Shell (Moderate) -->
+++ Ask OpenAI as I don't see info on internet about this with
++  electron but I expect its possable as similar to a virtual
++  Ran inside app application
+++ Make it easily addable to user customization to do so with their
++  apps
+---------------------
+Add SFX + FX (Moderate) -->
+++ As I planned before I would like FX layers to sweeten this up
++  and make it also easily customizable
+++ SFX to spice up the theme
+---------------------
+Inapp Reloading (Important) -->
+++ Currently heavily needed feature
+---------------------
+InApp Customization Shell (Important) -->
+++ App App Customization Button
+++ Easily customize your shell Inside Application
+++ make sure the list of backgrounds inside the app is
++  Grabbed so InApp you have a list which can be set to
+++ Make colors easily changeable
+++ Make FX and SFX easily changeable InApp
+++ Relaoding will be importanbt for this feature

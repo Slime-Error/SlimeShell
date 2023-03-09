@@ -1,0 +1,5 @@
+-- Dis is for code pasties -- OwO --
+
+input {
+  all: unset;
+}

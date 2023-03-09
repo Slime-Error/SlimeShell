@@ -1,6 +1,5 @@
-// Main Electron Appilcation
-const { app, BrowserWindow } = require("electron");
-const { ipcMain } = require("electron");
+// Main Application Modules
+const { app, BrowserWindow, ipcMain } = require("electron");
 // Get User Configuration Files
 const config = require("./config/shellconfig.js");
 // User & Application Config Variables
@@ -33,4 +32,8 @@ const createWindow = () => {
 app.on('ready', () => {
   createWindow();
   app.on('window-all-closed', () => app.quit());
+});
+ipcMain.on('reload-app', () => {
+  app.relaunch();
+  app.quit();
 });
