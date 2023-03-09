@@ -1,1 +1,5 @@
 ---------------------New Instance Log---------------------
+Shell Message: Welcome to SlimeShell ALPHA-0.4!
+SlimeShell has sent the update log to the console.
+Created a Slimey Notepad in the Shell for the user!
+Shell console cleared.
